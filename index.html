@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rent Services</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+   
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                CMC
+            </div>
+
+            <ul class="nav-list ">
+                <li><a href="#property" class="list-item">Tài sản
+                </a></li>
+                <li><a href="#service" class="list-item">Dịch vụ
+                </a></li>
+                <li><a href="#product" class="list-item">Sản phẩm
+                </a></li>
+                <li><a href="#aboutus  " class="list-item">Về chúng tôi
+                </a></li>
+                <li><a href=" #contact" class="list-item contact ">Liên hệ 
+                </a></li>
+            </ul>
+
+            <div class="mobile-menu" onclick="showMenu()">
+                <div class="line line1 "></div>
+                <div class="line line2 "></div>
+                <div class="line line3 "></div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar  -->
+
+    <!-- header  -->
+    <section class="header">
+        <div class="container">
+            <div class="header-info">
+                <h1 class="header-headline">Bất động sản CMC 
+                    </h1>
+                <p class="header-subtitle">
+                   Hãy để chúng tôi lo cho nơi ở của bạn
+                </p>
+
+                <a href="" class="cta">Trang Chủ</a>
+            </div>
+        </div>
+    </section>
+    <!-- header  -->
+
+    <!-- search box -->
+    <form>
+        <div class="container">
+            <div class="input">
+                <input type="text" placeholder="loaction">
+                <img src="./images/location.svg" alt="">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="type">
+                <img src="./images/home1.svg" alt="" id="">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="budget">
+                <img src="./images/money.svg" alt="">
+            </div>
+            <div class="input search">
+                <input type="submit" value="search now">
+
+            </div>
+        </div>
+    </form>
+    <!-- search box -->
+
+    <!-- product  -->
+    <section id="product">
+        <div class="product-info">
+            <h2 class="product-title">
+                Các Tầng Còn Trống
+            </h2>
+
+            <a href="" class="product-btn">
+                Xem Thêm
+                <img src="./images/arrow.svg" alt="">
+            </a>
+        </div>
+        <div class="container">
+            <div class="product-card">
+                <img src="./images/house1.png" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">Tầng 5</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="./images/bed.svg" alt="">
+                            <p>4 Phòng</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/size.svg" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/area.svg" alt="">
+                            <p>140M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>540000000VND</p>
+                        <a href="" class="booking-btn">Mua Ngay</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./images/house2.png" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">Tầng 2</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="./images/bed.svg" alt="">
+                            <p>2 Phòng</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/size.svg" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/area.svg" alt="">
+                            <p>140M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>780000000VND</p>
+                        <a href="" class="booking-btn">Mua Ngay</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="./images/house3.png" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="./images/location.svg" alt="">
+                        <p class="loaction-name">Tầng 13</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="./images/bed.svg" alt="">
+                            <p>4 Phòng</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/size.svg" alt="">
+                            <p>10x10m</p>
+                        </div>
+                        <div class="content">
+                            <img src="./images/area.svg" alt="">
+                            <p>140M</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>450000000VND</p>
+                        <a href="" class="booking-btn">Mua Ngay</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product  -->
+
+    <!-- gsap link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap link  -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
